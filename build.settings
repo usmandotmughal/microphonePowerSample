@@ -19,6 +19,15 @@ settings =
 		plist =
 		{
 			UILaunchStoryboardName = "LaunchScreen",
+			NSMicrophoneUsageDescription = "This app would like to access the microphone.",
 		},
 	},
+	android =
+    {
+        usesPermissions =
+        {
+            "android.permission.RECORD_AUDIO",
+        },
+    },
+}
 }
