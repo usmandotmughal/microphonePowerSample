@@ -1,5 +1,35 @@
 # Microphone Power Sample
 
+### Add permissions in build.settings file
+
+#### Android
+```
+settings =
+{
+    android =
+    {
+        usesPermissions =
+        {
+            "android.permission.RECORD_AUDIO",
+        },
+    },
+}
+```
+#### iOS
+```
+settings =
+{
+    iphone =
+    {
+        plist =
+        {
+            NSMicrophoneUsageDescription = "This app would like to access the microphone.",
+        },
+    },
+}
+```
+
+#### Main.lua
 ```
 local micrphone = require "plugin.micrphonePower"
 
