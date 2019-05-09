@@ -16,7 +16,7 @@ settings =
 }
 ```
 
-In android 6+ need to get permission on runtime.
+##### In android 6+ need to get permission on runtime.
 
 #### iOS
 ```
